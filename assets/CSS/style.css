@@ -1,0 +1,155 @@
+body{
+    align-content: center;
+    background-color:rgb(198, 235, 235) ;
+    color: rgb(49, 47, 47);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.buttons{
+    border-top: solid 2px rgb(167, 164, 164);
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    padding-top:15px;
+}
+
+.container{
+    background-color:white;
+    border-radius: 10px;
+    height: 80%;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+.container2{
+    padding: 20px;
+    justify-content: center;
+}
+
+#copyBtn {
+    background-color: grey;
+    border-radius: 20px;
+    border:none;
+    color: white;
+    font-size: 22px;
+    padding-left: 25px;
+    padding-right:25px;
+}
+
+#genBtn{
+    background-color: red;
+    border-radius: 20px;
+    border:none;
+    color: white;
+    font-size: 22px;
+    padding-left: 25px;
+    padding-right:25px;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 20px; 
+    padding-top: 50px;
+    text-align: center;
+    
+}
+
+h2{
+    font-size: 22px;
+    font-weight: bold;
+    text-align:left;    
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+.h2-box{
+    border-bottom: solid 2px rgb(167, 164, 164);
+}
+
+h3{
+    text-align: left;
+    font-weight: bold;
+}
+
+.options{
+    display:flex;
+    flex-direction: column;
+    font-size:14px;
+    padding:8px;
+    text-align: left;
+}
+
+#optLength{
+    border: solid rgb(49, 47, 47) 1px;
+    font-size:16px;
+    height:20px;
+    margin-top: 5px;
+    padding-left:10px;
+    width:20%;
+}
+
+p{
+    font-size:12px;
+}
+#pwBox{
+    border-radius: 10px;
+    border: dashed rgb(167, 164, 164) 3px;
+    color: grey;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: 300;
+    height:50px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:20px;
+    padding-top: 30px;
+    text-align: center;
+   
+}
+
+@media only screen and (max-width: 550px) {
+   
+    .container{
+        margin-left:8px;
+        margin-right:8px;
+    }
+    .container2{
+        padding:10px;
+    }
+
+    .buttons{
+        flex-direction: column;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2 {
+        font-size:15px;
+        text-align: center;
+    }
+    #pwBox{
+        border-radius: 2px;
+        font-size:16px;
+    }
+    #copyBtn {
+        border-radius: 5px;
+        font-size: 12px;
+        margin:5px;
+        padding: 5px;
+    }
+    
+    #genBtn{
+        border-radius: 5px;
+        font-size: 12px;
+        margin:5px;
+        padding: 5px;
+    }
+    
+  }

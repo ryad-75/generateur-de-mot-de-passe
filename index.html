@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link href="./assets/CSS/reset.css" rel="stylesheet">
+    <link href="./assets/CSS/style.css" rel="stylesheet">
+
+    <title>Générateur de mot de passe</title>
+</head>
+<body>
+    <h1>Générateur de mot de passe</h1>
+    
+    <div class= "container">
+        <div class="container2">
+        <div class="h2-box">
+            <h2>Créer un mot de passe</h2>
+        </div>
+        <!-- box to generate HTML -->
+        <div id="pwBox">Cliquez sur "Générer"</div>  
+        
+        <h3>Complexité facultative</h3> 
+        
+        <div class="options">
+            <label>
+                <p>Longueur du mot de passe</p>
+                <input id="optLength" type="text">
+            </label>
+            <br>        
+            <label>      
+                    <input id="addNo" type ="checkbox" unchecked>
+                    Numérique 
+            </label>
+            <label>      
+                    <input id="caps" type ="checkbox" unchecked>
+                    Capitalisation 
+            </label>
+            <label>          
+                    <input id ="char" type ="checkbox" unchecked> 
+                    Caractères spéciaux
+            </label>
+        </div>
+        <div class="buttons">
+                <!-- button to generate -->
+                <button id="genBtn" onclick="RunNewGen()">Générer un mot de passe</button>
+            
+        </div>
+        <br><br>
+        <a href="https://github.com/ryad-75/generateur-de-mot-de-passe">Développé par Riad ALLAF</a>
+        <style type="text/css"> 
+            a:link 
+            { 
+             text-decoration:none; 
+            } 
+        </style>
+        
+    </div>
+    </div>
+
+    <script src="./assets/app.js"></script>
+</body>
+</html>
