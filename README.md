@@ -11,3 +11,6 @@ Mes algorithmes utilisent plusieurs processus de randomisation à chaque génér
 Prendre plaisir.
 
 ### Ryad-75
+
+![image1](https://user-images.githubusercontent.com/53655352/97236840-4572cb00-17e6-11eb-8c59-92e9f395b911.png)
+![image2](https://user-images.githubusercontent.com/53655352/97236842-460b6180-17e6-11eb-809a-77bd6ffaf385.png)
